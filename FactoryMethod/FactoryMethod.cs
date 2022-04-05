@@ -1,8 +1,10 @@
+using FactoryMethod.Characters;
+
 namespace FactoryMethod
 {
     public class FactoryMethod
     {
-        public ICharacter? SelectCharacter(string character)
+        public ICharacter? SelectCharacter(string? character)
         {
             switch (character)
             {

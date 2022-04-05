@@ -1,4 +1,4 @@
-namespace AbstractFactory
+namespace AbstractFactory.Coating
 {
     public interface ICoating
     {

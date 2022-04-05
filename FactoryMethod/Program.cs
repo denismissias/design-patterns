@@ -2,19 +2,19 @@
 
 namespace FactoryMethod
 {
-    internal class Program
+    internal static class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            FactoryMethod factoryMethod = new FactoryMethod();
+            var factoryMethod = new FactoryMethod();
             
             Console.WriteLine("Liu Kang | SubZero | Scorpion");
             Console.WriteLine();
 
             Console.WriteLine("Select your Character: ");
-            string? selected = Console.ReadLine();
+            var selected = Console.ReadLine();
 
-            ICharacter? character = factoryMethod.SelectCharacter(selected);
+            var character = factoryMethod.SelectCharacter(selected);
 
             Console.WriteLine();
             Console.WriteLine("You'll play with ");

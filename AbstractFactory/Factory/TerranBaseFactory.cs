@@ -1,4 +1,7 @@
-namespace AbstractFactory
+using AbstractFactory.Coating;
+using AbstractFactory.Energy;
+
+namespace AbstractFactory.Factory
 {
     public class TerranBaseFactory : IBaseFactory
     {

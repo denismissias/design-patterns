@@ -1,4 +1,4 @@
-namespace FactoryMethod
+namespace FactoryMethod.Characters
 {
     public class Scorpion : ICharacter
     {
