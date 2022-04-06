@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{83FA6081-C52E-4557-805E-9AA685F5BBD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{1891FFA9-808C-4C81-BD3F-F3B1B6F2830D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83FA6081-C52E-4557-805E-9AA685F5BBD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83FA6081-C52E-4557-805E-9AA685F5BBD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83FA6081-C52E-4557-805E-9AA685F5BBD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83FA6081-C52E-4557-805E-9AA685F5BBD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1891FFA9-808C-4C81-BD3F-F3B1B6F2830D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1891FFA9-808C-4C81-BD3F-F3B1B6F2830D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1891FFA9-808C-4C81-BD3F-F3B1B6F2830D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1891FFA9-808C-4C81-BD3F-F3B1B6F2830D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
