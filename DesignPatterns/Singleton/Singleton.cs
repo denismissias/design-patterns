@@ -1,6 +1,6 @@
 namespace Singleton;
 
-public sealed class Singleton
+public class Singleton
 {
     private static Singleton? _instance;
 

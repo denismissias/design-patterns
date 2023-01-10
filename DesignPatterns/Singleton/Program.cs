@@ -2,7 +2,7 @@
 {
     internal static class Program
     {
-        private static void Main(string[] args)
+        private static void Main()
         {
             var player1 = Singleton.GetInstance;
             player1?.Message("Player 1: A bola está comigo no meio campo.");
