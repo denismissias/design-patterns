@@ -1,12 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{83FA6081-C52E-4557-805E-9AA685F5BBD2}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{83FA6081-C52E-4557-805E-9AA685F5BBD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{1891FFA9-808C-4C81-BD3F-F3B1B6F2830D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{1891FFA9-808C-4C81-BD3F-F3B1B6F2830D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{FE8AA359-06E8-46A9-B7F6-857B1742559E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{FE8AA359-06E8-46A9-B7F6-857B1742559E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{4FA05B94-0466-41C9-AF53-0D0CFABECE2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{4FA05B94-0466-41C9-AF53-0D0CFABECE2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{1CCCDFA2-70AC-42D7-A4E4-4FF2B5741D23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +35,15 @@ Global
 		{4FA05B94-0466-41C9-AF53-0D0CFABECE2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FA05B94-0466-41C9-AF53-0D0CFABECE2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FA05B94-0466-41C9-AF53-0D0CFABECE2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CCCDFA2-70AC-42D7-A4E4-4FF2B5741D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CCCDFA2-70AC-42D7-A4E4-4FF2B5741D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CCCDFA2-70AC-42D7-A4E4-4FF2B5741D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CCCDFA2-70AC-42D7-A4E4-4FF2B5741D23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46B02028-0754-402C-B433-1743654BC140}
 	EndGlobalSection
 EndGlobal

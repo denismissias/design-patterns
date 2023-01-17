@@ -2,9 +2,9 @@ namespace Singleton;
 
 public class Singleton
 {
-    private static Singleton? _instance;
+    private static Singleton _instance;
 
-    public static Singleton? GetInstance
+    public static Singleton GetInstance
     {
         get
         {
