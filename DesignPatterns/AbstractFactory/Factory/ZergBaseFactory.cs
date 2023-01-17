@@ -13,10 +13,10 @@ namespace AbstractFactory.Factory
         {
             Console.WriteLine("Success Zerg base created");
 
-            ZergBaseCoating coating = new ZergBaseCoating();
+            ICoating coating = new ZergBaseCoating();
             coating.Composition();
 
-            ZergBaseEnergy energy = new ZergBaseEnergy();
+            IEnergy energy = new ZergBaseEnergy();
             energy.Composition();
         }
     }

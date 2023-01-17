@@ -13,10 +13,10 @@ namespace AbstractFactory.Factory
         {
             Console.WriteLine("Success Protoss base created");
 
-            ProtossBaseCoating coating = new ProtossBaseCoating();
+            ICoating coating = new ProtossBaseCoating();
             coating.Composition();
 
-            ProtossBaseEnergy energy = new ProtossBaseEnergy();
+            IEnergy energy = new ProtossBaseEnergy();
             energy.Composition();
         }
     }

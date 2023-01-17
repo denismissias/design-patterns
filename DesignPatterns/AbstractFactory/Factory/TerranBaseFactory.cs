@@ -13,10 +13,10 @@ namespace AbstractFactory.Factory
         {
             Console.WriteLine("Success Terran base created");
 
-            TerranBaseCoating coating = new TerranBaseCoating();
+            ICoating coating = new TerranBaseCoating();
             coating.Composition();
 
-            TerranBaseEnergy energy = new TerranBaseEnergy();
+            IEnergy energy = new TerranBaseEnergy();
             energy.Composition();
         }
     }
