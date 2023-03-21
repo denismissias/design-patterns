@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Sing
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{4FA05B94-0466-41C9-AF53-0D0CFABECE2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{1CCCDFA2-70AC-42D7-A4E4-4FF2B5741D23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Prototype\Prototype.csproj", "{1CCCDFA2-70AC-42D7-A4E4-4FF2B5741D23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{DB3FE3BB-03AB-4A2A-8034-5FC936FCBF3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Flyweight\Flyweight.csproj", "{EB8EF7EE-5A21-4D9E-BFA7-12EB8BC08CDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{1CCCDFA2-70AC-42D7-A4E4-4FF2B5741D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CCCDFA2-70AC-42D7-A4E4-4FF2B5741D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CCCDFA2-70AC-42D7-A4E4-4FF2B5741D23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB3FE3BB-03AB-4A2A-8034-5FC936FCBF3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB3FE3BB-03AB-4A2A-8034-5FC936FCBF3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB3FE3BB-03AB-4A2A-8034-5FC936FCBF3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB3FE3BB-03AB-4A2A-8034-5FC936FCBF3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB8EF7EE-5A21-4D9E-BFA7-12EB8BC08CDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB8EF7EE-5A21-4D9E-BFA7-12EB8BC08CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB8EF7EE-5A21-4D9E-BFA7-12EB8BC08CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB8EF7EE-5A21-4D9E-BFA7-12EB8BC08CDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
